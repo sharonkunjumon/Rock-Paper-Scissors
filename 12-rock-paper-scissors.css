@@ -1,0 +1,27 @@
+body{
+
+  background-color: rgb(25,25,25);
+}
+.rock-img , .scissor-img ,.paper-img{
+  height: 30px;
+  border-radius: 50%;
+}
+
+.auto{
+  height: 30px;
+}
+
+.rock-button,.paper-button, .scissor-button{
+  border-radius: 50px;
+  margin-right: 10px;
+  border: 3px solid teal;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.Reset,.autoplay{
+  height: 30px;
+  width: 90px;
+}
